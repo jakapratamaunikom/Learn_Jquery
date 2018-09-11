@@ -1,0 +1,7 @@
+// Tutorial jquery by Jaka Pratama
+
+jquery merupakan sebuah library javascript yang siap pakai, untuk memudahkan penggunaan javascript dalam sebuah website. 
+
+Fungsi Jquery serupa dengan javascript yaitu memanipulasi form,paragraph, text, object image dan lain nya..
+
+^_^ Selamat Belajar

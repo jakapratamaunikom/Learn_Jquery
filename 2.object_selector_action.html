@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>2. Selector, Object and Action</title>
+	<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			// aksi memanggil selector utk method menyemunyikan
+			$("#btn_hide").click(function(){
+				$("h1").hide();
+			});
+
+			$("#btn_show").click(function(){
+				$("h1").show();
+			});
+
+			$( "#btn_small" ).click(function() {     
+			$("h1").css("font-size","20px");
+			});
+
+			$( "#btn_red" ).click(function() {     
+			$("h1").css( "color", "red" );
+			});
+
+		});
+	</script>
+
+</head>
+<body>
+	<h1>Belajar Object Selector</h1>
+	<button id="btn_hide">HIDE</button>
+	<button id="btn_show">SHOW</button>
+	<button id="btn_small">Smalling Text</button>
+	<button id="btn_red">Go to Red</button>
+	
+	
+</body>
+</html>
