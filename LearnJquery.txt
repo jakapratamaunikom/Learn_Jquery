@@ -10,3 +10,5 @@ Akses Object di Jquery
 $("p")  artinya semua tag di file tersebut akan di manipulasi
 $(".btn_add")  artinya class di file tersebut akan di manipulasi
 $("#btn_add")  artinya id di file tersebut akan di manipulasi
+
+tes
