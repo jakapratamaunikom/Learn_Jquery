@@ -1,0 +1,12 @@
+akses object di jquery
+
+$("#btn_add")
+or 
+jquery("#btn_add")
+
+- Mengakses object Jquery yaitu $(#btn_add).action
+
+Akses Object di Jquery
+$("p")  artinya semua tag di file tersebut akan di manipulasi
+$(".btn_add")  artinya class di file tersebut akan di manipulasi
+$("#btn_add")  artinya id di file tersebut akan di manipulasi
